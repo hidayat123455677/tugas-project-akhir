@@ -4,7 +4,6 @@ import os
 class SistemTol:
     def __init__(self):
         # Data tarif tol dan persentase diskon
-        # 0.1 artinya diskon, 0.50 artinya 50%
         self.tarif_dasar = {
             "1": {"tipe": "Mobil Pribadi/Sedan", "harga": 50000, "diskon": 0.50},
             "2": {"tipe": "Bus/Truk Kecil", "harga": 100000, "diskon": 0.30},
